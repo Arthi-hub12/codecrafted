@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Poppins',sans-serif;
+    color:#333
+}
+
+header {
+  background-color: transparent;
+  padding: 24px 48px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+nav a:hover {
+  opacity: 1;
+  color: #6c63ff;
+}
+
+
+section{
+    padding: 60px 20px;
+    min-height: 100vh;
+    width:100%;
+
+
+}
+section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white; 
+    
+    
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0a0a1a;
+  color: white;
+  position: relative;
+}
+
+#home {
+  background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.eyebrow {
+  letter-spacing: 4px;
+  font-size: 14px;
+  color: #aaaaaa;
+  margin-bottom: 10px;
+}
+
+#home h1 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.description {
+  letter-spacing: 4px;
+  font-size: 14px;
+  color: #aaaaaa;
+  margin: 10px auto;
+}
+#about {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images3.alphacoders.com/103/1037990.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 700px;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.eyebrow {
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.highlight {
+  font-style: italic;
+  color: #b39ddb;
+}
+
+.about-me {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 16px;
+  color: #dddddd;
+}
+
+.ab-content {
+  font-size: 16px;
+  line-height: 1.9;
+  font-family: 'Poppins', sans-serif;
+  color: #cccccc;
+  margin-bottom: 32px;
+}
+
+.hobbies {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  
+}
+
+.hobby-badge {
+  background-color: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.hobby-badge:hover {
+ transform: translateY(-4px);
+  border-color: #b39ddb;
+  transition: transform 0.3s, border-color 0.3s;
+}
+#skills{
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqdxhwTuBRL8tgTPkJLywg0a3KStf7XRoglQg7Zn2ptt11ZBRlytyIqoqd&s=10');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-list {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 40px;
+}
+
+.skill-item {
+  margin-bottom: 24px;
+}
+
+.skill-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.skill-name.html { color: #ff7eb3; }
+.skill-name.ui-ux { color: #f7d046; }
+.skill-name.python { color: #6c63ff; }
+.skill-name.git { color: #b39ddb; }
+.skill-name.tailwind { color:#d46abf;}
+
+.skill-percent {
+  color: #cccccc;
+}
+
+.bar-bg {
+  width: 100%;
+  height: 8px;  
+  background-color: #333355;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background-color: #6c63ff;
+  border-radius: 10px;
+}
+#projects{
+  background-image:
+linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url('https://images5.alphacoders.com/283/thumb-1920-283627.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.projects-container {
+  max-width: 700px;
+  width: 100%;
+  padding: 0 40px;
+    font-size: 16px;
+  line-height: 1.9;
+  font-family: 'Poppins', sans-serif;
+  color: #cccccc;
+  margin-bottom: 32px;
+}
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 28px;
+  margin-bottom: 24px;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #b39ddb;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-number {
+  font-size: 36px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.08);
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-desc {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #cccccc;
+  margin-bottom: 18px;
+}
+
+.card-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tag {
+  background-color: rgba(179, 157, 219, 0.15);
+  border: 1px solid rgba(179, 157, 219, 0.3);
+  color: #b39ddb;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.card-link {
+  color: #b39ddb;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: color 0.3s;
+}
+
+.card-link:hover {
+  color: white;
+}
+
+.coming-soon {
+  
+  opacity: 0.6;
+}
+#contact{
+   background-image:
+linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url('https://wallpaper.forfun.com/fetch/16/160b5e12122130577ce0bdc879e8a1fc.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contacts-container {
+  max-width: 700px;
+  width: 100%;
+  padding: 0 40px;
+  font-size: 16px;
+  line-height: 1.9;
+  font-family: 'Poppins', sans-serif;
+  color: #cccccc;
+  margin-bottom: 32px;
+}
+.email{
+   background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 10px;
+  margin-bottom: 24px;
+  transition: transform 0.3s, border-color 0.3s;
+  width:100%;
+}
+.linkedin{
+   background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 10px;
+  margin-bottom: 24px;
+  transition: transform 0.3s, border-color 0.3s;
+  width:100%;
+}
+.github{
+   background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 10px;
+  margin-bottom: 24px;
+  transition: transform 0.3s, border-color 0.3s;
+  width:100%;
+}
+.email:hover{
+  transform: translateY(-4px);
+  border-color: #b39ddb;
+}
+
+.github:hover{
+  transform: translateY(-4px);
+  border-color: #b39ddb;
+}
+.linkedin:hover{
+  transform: translateY(-4px);
+  border-color: #b39ddb;
+}
