@@ -59,13 +59,4 @@ This portfolio is the first step in documenting that journey.
 - GitHub: https://github.com/Arthi-hub12
 - Email: helloarthi123@email.com
 
----
 
-## 🧶 Fun Fact
-
-When I'm not coding, you'll find me crocheting,
-listening to pop music, or watching a good movie!
-
----
-
-*Made with curiosity, patience, and a lot of googling* 😄
