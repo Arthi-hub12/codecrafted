@@ -40,12 +40,12 @@ built step by step as I grow my skills.
 
 ### 🖩 Calculator
 A simple calculator built with Python.
-- [GitHub →](https://github.com/Arthi-hub12/Calculator-python-.git)
+- GitHub → https://github.com/Arthi-hub12/Calculator-python-.git
 
 ###  BasicOS
 A browser-based fake desktop OS built with HTML, CSS, and JavaScript.
 Features draggable windows, calculator, notepad, and a built-in browser.
-- [GitHub →](https://github.com/Arthi-hub12/web-os.git)
+- GitHub → https://github.com/Arthi-hub12/web-os.git
 
 ---
 
